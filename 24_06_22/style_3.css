@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  background-image: url("https://cdn.wallpapersafari.com/28/45/NJcA82.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  padding: 10px;
+  font-size: 30px;
+}
+
+a {
+  color: #39b2eb;
+}
+
+h1 {
+  color: #39b2eb;
+  font-size: 30px;
+}
+
+p {
+  color: yellow;
+  font-size: 17px;
+}
+
+section {
+  padding-left: 15px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SpaceX</title>
+    <link rel="stylesheet" href="style_3.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <a href="index.html"
+            ><img
+              src="https://cdn.discordapp.com/attachments/978818687140261910/984968890721374249/logo.png"
+              alt=""
+          /></a>
+          <a href="spaceships.html">| The Spaceships </a>
+          <a href="hire_us.html">| Hire us</a>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <h1>Hire Us Now</h1>
+      <p>
+        Leave a message to request one of our services and we will get back to
+        you as soon as possible.
+      </p>
+      <div>
+        <p>
+          <label for="">Name:</label>
+          <input type="text" />
+          <label for="">| Email:</label>
+          <input type="email" />
+        </p>
+        <p>
+          <label for="spaceships">Spaceship:</label>
+          <select name="spaceships" id="spaceships">
+            <option value="falcon_9">Falcon 9</option>
+            <option value="falcon_heavy">Falcon Heavy</option>
+          </select>
+          <label for="">| Type of service:</label>
+          <input type="search" list="service_type" />
+          <datalist id="service_type">
+            <option value="In pellentesque felis"></option>
+            <option value="Ut malesuada condimentum"></option>
+            <option value="Ut fringilla nunc eget"></option>
+            <option value="Nulla vehicula"></option>
+          </datalist>
+        </p>
+      </div>
+      <br />
+      <input type="submit" value="Send Request" />
+    </section>
+  </body>
+</html>
